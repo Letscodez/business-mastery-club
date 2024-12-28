@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fadeInDown {
+  0% {
+    opacity: 0; /* Start fully transparent */
+    transform: translateY(-50px); /* Start 50px higher than usual */
+  }
+  100% {
+    opacity: 1; /* End fully opaque */
+    transform: translateY(0); /* End at normal position */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-fade-in-down {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
 }
