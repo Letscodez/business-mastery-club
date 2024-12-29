@@ -32,7 +32,7 @@ const tiles = [
   {
     icon: <ShieldCheck className="size-full" />,
     bg: (
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-green-500 via-teal-500 to-emerald-600 opacity-70 blur-[20px] filter"></div>
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 ible rounded-full bg-gradient-to-r from-green-500 via-teal-500 to-emerald-600 opacity-70 blur-[20px] filter"></div>
     ),
   },
   {
@@ -92,7 +92,7 @@ const Card = (card: { icon: JSX.Element; bg: JSX.Element }) => {
       animate={controls}
       className={cn(
         "relative size-24 overflow-hidden rounded-2xl p-4",
-        "transform-gpu bg-transparent [box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]",
+        "transform-gpu bg-transparent [box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
       )}
     >
       {card.icon}

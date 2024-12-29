@@ -4,7 +4,7 @@ import { nav_links } from "@/constants/navlinks";
 
 export const Navbar = () => {
   return (
-    <header className="fixed top-10 left-0 animate-fade-in-down [--animation-delay:600ms] right-0 px-4 py-2 bg-background/40 backdrop-blur-lg border border-white rounded-2xl shadow-xl z-50 max-w-6xl mx-auto w-11/12">
+    <header className="fixed top-10 left-0 animate-fade-in-down [--animation-delay:600ms] right-0 px-4 py-2 bg-background/40 backdrop-blur-lg border border-white rounded-2xl shadow-xl z-50 max-w-6xl mx-auto w-full">
       <div className="flex items-center justify-between h-full">
         <div className="flex items-start">
           <Link href="/" className="flex items-center gap-2">

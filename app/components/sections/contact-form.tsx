@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import SectionBadge from "./section-badge";
+import SectionBadge from "../ui/section-badge";
 import { ChevronRight } from "lucide-react";
-import { BackgroundBeamsWithCollision } from "./background-beams";
+import { BackgroundBeamsWithCollision } from "../ui/background-beams";
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -86,11 +86,11 @@ const ContactForm: React.FC = () => {
 
           {/* Submit Button */}
           <div>
-            <button className="relative hover:scale-105 w-full duration-200 inline-flex h-12 overflow-hidden rounded-2xl p-[1px] focus:outline-none focus:ring-2 focus:ring-white">
+            <button className="relative group w-full duration-200 inline-flex h-12 overflow-hidden rounded-2xl p-[1px] focus:outline-none focus:ring-2 focus:ring-white">
               <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#FF0000_0%,#FF7F00_6.66%,#FFFF00_13.33%,#00FF00_20%,#4B0082_33.33%,#8B00FF_40%,#FF1493_46.66%,#FF6347_53.33%,#FF4500_60%,#FFD700_66.66%,#ADFF2F_73.33%,#00FA9A_80%,#00FFFF_86.66%,#FF69B4_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-2xl bg-black px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                 Send Message
-                <ChevronRight className="w-5 h-5 ml-2" />
+                <ChevronRight className="w-5 h-5 ml-2 group-hover:ml-4 duration-200" />
               </span>
             </button>
           </div>

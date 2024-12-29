@@ -4,7 +4,7 @@ import WhyOurClub from "./components/sections/Join";
 import { Mission } from "./components/sections/Mission";
 import { Roles } from "./components/sections/Roles";
 import { ClubActivities } from "./components/sections/Activities";
-import ContactForm  from "./components/ui/contact-form";
+import ContactForm  from "./components/sections/contact-form";
 
 const Home = () => (
   <main>
