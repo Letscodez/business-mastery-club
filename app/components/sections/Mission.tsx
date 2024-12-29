@@ -30,11 +30,11 @@ export const Mission = () => {
                 <Image
                   src={perk.icon}
                   alt={perk.title}
-                  width={64}
-                  height={64}
+                  width={96}
+                  height={96}
                 />
               </div>
-              <h3 className="text-xl font-medium mt-4 text-teal-300">
+              <h3 className="text-xl font-medium mt-4 text-white">
                 {perk.title}
               </h3>
               <p className="text-gray-200 mt-2 text-sm">{perk.info}</p>

@@ -9,7 +9,7 @@ export const Hero = () => {
   const heroTitle = "Inspire Excellence in Business - Learn, Lead, Excel";
 
   return (
-    <Container className="h-full w-full mx-auto max-w-screen-xl px-4 md:px-0">
+    <Container className="h-screen mb-12 w-full mx-auto max-w-screen-xl px-4 md:px-0">
       <Grids />
       <div className="flex flex-col items-center justify-center py-20 h-full">
         <button className="relative grid rounded-full shadow-inner bg-gradient-to-tr overflow-hidden mt-[70px]">
@@ -29,12 +29,12 @@ export const Hero = () => {
             innovation, and practical decision-making.
           </p>
 
-          <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
+          <div className="flex relative items-center justify-center mt-8 md:mt-12 w-full">
             <Link
               href="#"
               className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
             >
-              <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:marker:pr-0">
+              <p className="text-foreground sm:block hidden text-sm text-center md:text-base font-medium pl-4 pr-4 lg:marker:pr-0">
                 ✨ Join the journey to mastering business today!
               </p>
               <button className="relative inline-flex h-10 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-white group">

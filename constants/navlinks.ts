@@ -4,12 +4,12 @@ export const nav_links = [
     label: "Mission",
   },
   {
-    href: "/#about",
-    label: "About",
+    href: "/#roles",
+    label: "Roles",
   },
   {
-    href: "/#features",
-    label: "Features",
+    href: "/#WhyOurClub",
+    label: "Why Our Club",
   },
   {
     href: "/blog",
