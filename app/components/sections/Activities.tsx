@@ -6,7 +6,7 @@ import SectionBadge from "../ui/section-badge";
 
 export function ClubActivities() {
   return (
-    <section id="WhyOurClub">
+    <section id="activities">
       <div className="flex flex-col items-center justify-center py-12 relative">
         <Container>
           <div className="max-w-md mx-auto text-center">

@@ -12,7 +12,7 @@ export const nav_links = [
     label: "Why Our Club",
   },
   {
-    href: "/blog",
-    label: "Blog",
+    href: "/#activities",
+    label: "Activities",
   },
 ];

@@ -17,3 +17,25 @@
   animation-name: fadeInDown;
   animation-duration: 1s;
 }
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #004be0, #00d4ff);
+  border-radius: 9px;
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track {
+  background: #111111;
+  border-radius: 10px;
+}
+
+/* Scrollbar on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #003bb8, #00aaff);
+}
