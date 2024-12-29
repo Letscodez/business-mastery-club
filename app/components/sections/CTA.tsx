@@ -149,10 +149,10 @@ export default function CallToActionSection() {
                 <Rocket className="mx-auto size-16 text-white opacity-80 lg:size-24" />
               </div>
               <div className="z-10 mt-4 flex flex-col items-center text-center text-primary">
-                <h1 className="text-3xl font-bold lg:text-4xl">
+                <h1 className="text-3xl font-bold lg:text-4xl text-white">
                   Join Our Club and Be Part of Something Bigger!{" "}
                 </h1>
-                <p className="mt-2">
+                <p className="mt-2 text-gray-200">
                   Connect, learn, and grow together. Your journey starts here.
                 </p>
                 <Link

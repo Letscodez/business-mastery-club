@@ -8,14 +8,12 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 export const HeroParallax = ({
   products,
 }: {
   products: {
     title: string;
-    link: string;
     thumbnail: string;
   }[];
 }) => {
@@ -121,7 +119,6 @@ export const ProductCard = ({
 }: {
   product: {
     title: string;
-    link: string;
     thumbnail: string;
   };
   translate: MotionValue<number>;
@@ -137,8 +134,7 @@ export const ProductCard = ({
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
-      <Link
-        href={product.link}
+      <div
         className="block group-hover/product:shadow-2xl "
       >
         <Image
@@ -148,7 +144,7 @@ export const ProductCard = ({
           className="object-cover object-left-top absolute h-full w-full inset-0"
           alt={product.title}
         />
-      </Link>
+      </div>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}

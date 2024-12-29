@@ -1,19 +1,27 @@
+import Image from "next/image";
+
 export const reasons = [
   {
     title: "Develop Business Skills",
     content: (
       <div>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Joining our business club offers you the opportunity to gain practical
-          experience in entrepreneurship, finance, marketing, and leadership.
-          You&apos;ll learn how to apply business theories in real-world
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Gain practical experience in entrepreneurship, finance, marketing, and
+          leadership. Learn how to apply business theories in real-world
           scenarios and develop skills that are highly valued in the business
           world.
         </p>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          Whether you’re new to business or looking to advance your knowledge,
-          our activities will provide hands-on learning experiences.
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Whether you&apos;re new to business or looking to advance your
+          knowledge, our activities provide hands-on learning experiences.
         </p>
+        <Image
+          src="/business-skills.png" // Replace with your actual image path
+          alt="Business Skills"
+          width={500}
+          height={300}
+          className="w-full rounded-2xl mt-8"
+        />
       </div>
     ),
   },
@@ -21,16 +29,23 @@ export const reasons = [
     title: "Networking Opportunities",
     content: (
       <div>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Our club connects you with like-minded individuals, successful
-          entrepreneurs, and business professionals. You&apos;ll have the chance
-          to build your network, exchange ideas, and collaborate on projects
-          that can expand your professional opportunities.
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Connect with like-minded individuals, successful entrepreneurs, and
+          business professionals. Build your network, exchange ideas, and
+          collaborate on projects that can expand your professional
+          opportunities.
         </p>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          Networking in a supportive environment will open doors to internships,
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Networking in a supportive environment opens doors to internships,
           mentorships, and future career opportunities.
         </p>
+        <Image
+          src="/networking.png" // Replace with your actual image path
+          alt="Networking Opportunities"
+          width={500}
+          height={300}
+          className="w-full rounded-2xl mt-8"
+        />
       </div>
     ),
   },
@@ -38,17 +53,22 @@ export const reasons = [
     title: "Hands-On Business Experience",
     content: (
       <div>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          As a club member, you&apos;ll gain direct experience in organizing
-          events, managing budgets, marketing products, and strategizing
-          business solutions. You&apos;ll work on projects that mirror
-          real-world business challenges, helping you build a strong foundation
-          for your future career.
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Gain direct experience in organizing events, managing budgets,
+          marketing products, and solving real-world business challenges.
+          You&apos;ll work on projects that mirror actual business situations.
         </p>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          You’ll leave with tangible experience that can be added to your
-          resume, helping you stand out in the job market.
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Leave with tangible experience to enhance your resume and stand out in
+          the job market.
         </p>
+        <Image
+          src="/hands-on-experience.png" // Replace with your actual image path
+          alt="Hands-On Business Experience"
+          width={500}
+          height={300}
+          className="w-full rounded-2xl mt-8"
+        />
       </div>
     ),
   },
@@ -56,16 +76,22 @@ export const reasons = [
     title: "Leadership and Personal Growth",
     content: (
       <div>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Our club offers leadership roles that allow you to develop essential
-          management and decision-making skills. You&apos;ll be given
-          opportunities to lead teams, make strategic decisions, and contribute
-          to the club&apos;s growth.
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
+          Take on leadership roles to develop management and decision-making
+          skills. Lead teams, make strategic decisions, and contribute to the
+          club&apos;s growth.
         </p>
-        <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
+        <p className="text-neutral-200 text-md md:text-sm font-normal mb-8">
           These experiences will build your confidence and leadership abilities,
-          helping you succeed both in and out of the business world.
+          preparing you for success in the business world and beyond.
         </p>
+        <Image
+          src="/leadership-growth.png" // Replace with your actual image path
+          alt="Leadership and Personal Growth"
+          width={500}
+          height={300}
+          className="w-full rounded-2xl mt-8"
+        />
       </div>
     ),
   },
