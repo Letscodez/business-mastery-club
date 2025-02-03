@@ -64,11 +64,11 @@ export function Footer() {
             rights reserved.
           </p>
           <Link
-            href="https://github.com/LetsCodez"
+            href="https://github.com/matrixdevx"
             target="_blank"
             className="text-sm text-white mt-8 md:mt-0 hover:text-white/80 transition outline-none"
           >
-            LetsCodez | GitHub
+            Matrix.Dev | GitHub
           </Link>
         </div>
       </div>
